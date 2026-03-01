@@ -1,0 +1,9 @@
+{
+  "model": "IsolationForest",
+  "features": [
+    "temperature",
+    "humidity",
+    "sound_volume"
+  ],
+  "trained_at": "2026-03-01T13:23:18.500415"
+}
