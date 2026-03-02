@@ -1,6 +1,7 @@
 # IoT Anomaly Detection
 
-IU Project: From Model to Production (DLBDSMTP01)
+### IU Project: From Model to Production (DLBDSMTP01)
+
 Task 1 – IoT anomaly detection using Isolation Forest deployed with FastAPI and tested using a stream simulator.
 
 
@@ -17,15 +18,22 @@ project-root/
 app/
 └── app.py                  # FastAPI prediction service
 
+
 scripts/
 ├── train_model.py          # trains Isolation Forest model
+
 └── stream_simulator.py     # generates and sends sensor data
+
 
 artifacts/
 ├── model.joblib            # trained model
+
 └── meta.json               # model metadata
 
+
 requirements.txt              # project dependencies
+
+
 README.md                     # project documentation
 
 ------------------------------------------------------------
