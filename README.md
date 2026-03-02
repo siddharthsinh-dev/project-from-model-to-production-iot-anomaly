@@ -3,6 +3,7 @@
 IU Project: From Model to Production (DLBDSMTP01)
 Task 1 – IoT anomaly detection using Isolation Forest deployed with FastAPI and tested using a stream simulator.
 
+
 This project demonstrates how a machine learning model can be trained and deployed as a REST API service.  
 An Isolation Forest model is trained on simulated IoT sensor data and deployed using FastAPI.  
 A stream simulator continuously sends sensor values to the API and receives anomaly predictions in real time.
@@ -11,16 +12,18 @@ A stream simulator continuously sends sensor values to the API and receives anom
 
 ## Project Structure
 
+project-root/
+
 app/
-  └── app.py                  # FastAPI prediction service
+└── app.py                  # FastAPI prediction service
 
 scripts/
-  ├── train_model.py          # trains Isolation Forest model
-  └── stream_simulator.py     # generates and sends sensor data
+├── train_model.py          # trains Isolation Forest model
+└── stream_simulator.py     # generates and sends sensor data
 
 artifacts/
-  ├── model.joblib            # trained model
-  └── meta.json               # model metadata
+├── model.joblib            # trained model
+└── meta.json               # model metadata
 
 requirements.txt              # project dependencies
 README.md                     # project documentation
@@ -114,4 +117,4 @@ By following the steps above, the full system can be reproduced locally from tra
 ------------------------------------------------------------
 
 Developed by Siddharthsinh Rathod  
-IU International University of Applied Sciences
+International University of Applied Sciences
